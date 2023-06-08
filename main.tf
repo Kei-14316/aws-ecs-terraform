@@ -9,7 +9,7 @@ terraform {
   }
 }
 
-requierd_providers {
+required_providers {
   aws ={
     source  = "hashicorp/aws"
     version = "~> 4.0"
@@ -17,5 +17,5 @@ requierd_providers {
 }
 
 provider "aws" {
-  region = locals.region
+  region = local.region
 }
