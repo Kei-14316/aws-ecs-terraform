@@ -11,8 +11,8 @@ module "vpc" {
   public_subnet_names  = ["Public Subnet 1a", "Public Subnet 1c"]
   private_subnet_names = ["Private Subnet 1a", "Private Subnet 1c"]
 
-#  enable_dns_hostnames = true
-#  enable_dns_support   = true
+  enable_dns_hostnames = true
+  enable_dns_support   = true
 
-  enable_nat_gateway = true
+#  enable_nat_gateway = true
 }
